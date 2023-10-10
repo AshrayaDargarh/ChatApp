@@ -37,17 +37,6 @@ const Login = () => {
       setLoading(false);
       return;
     }
-    // if (password !== confirmPassword) {
-    //   toast({
-    //     title: "Password Do Not Match",
-    //     status: "warning",
-    //     duration: 5000,
-    //     isClosable: true,
-    //     position: "bottom",
-    //   });
-    //   setLoading(false);
-    //   return;
-    // }
     try {
       const config = {
         headers: {
